@@ -1,0 +1,23 @@
+{
+  "name": "expressive-test-util",
+  "version": "0.0.1",
+  "description": "Utilities for writing promise-based asynchronous code used by expressive-test",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/etr"
+  },
+  "author": "Jeffrey Hunter <jeff@missioncriticallabs.com>",
+  "license": "UNLICENSED",
+  "private": true,
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "chai-as-promised": "^7.1.1",
+    "mock-fs": "^4.4.2",
+    "sinon": "^4.4.2",
+    "sinon-chai": "^2.14.0",
+    "expressive-test": "../expressive-test"
+  },
+  "dependencies": {
+    "extend": "^3.0.1"
+  }
+}
