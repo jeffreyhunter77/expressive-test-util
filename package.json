@@ -4,7 +4,7 @@
   "description": "Utilities for writing promise-based asynchronous code used by expressive-test",
   "main": "index.js",
   "scripts": {
-    "test": "./node_modules/.bin/etr"
+    "test": "etr"
   },
   "author": "Jeffrey Hunter <jeff@missioncriticallabs.com>",
   "license": "UNLICENSED",
@@ -17,7 +17,5 @@
     "sinon-chai": "^2.14.0",
     "expressive-test": "../expressive-test"
   },
-  "dependencies": {
-    "extend": "^3.0.1"
-  }
+  "dependencies": {}
 }
