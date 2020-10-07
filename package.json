@@ -1,6 +1,6 @@
 {
   "name": "expressive-test-util",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Utilities for writing promise-based asynchronous code used by expressive-test",
   "main": "index.js",
   "scripts": {
@@ -19,7 +19,7 @@
     "mock-fs": "^4.4.2",
     "sinon": "^4.4.2",
     "sinon-chai": "^2.14.0",
-    "expressive-test": "git+ssh://git@github.com:jeffreyhunter77/expressive-test.git#semver:^0.0.2"
+    "expressive-test": "^0.0.2"
   },
   "dependencies": {}
 }
