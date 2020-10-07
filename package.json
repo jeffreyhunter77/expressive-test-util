@@ -7,15 +7,19 @@
     "test": "etr"
   },
   "author": "Jeffrey Hunter <jeff@missioncriticallabs.com>",
-  "license": "UNLICENSED",
-  "private": true,
+  "license": "MIT",
+  "private": false,
+  "respository": {
+    "type": "git",
+    "url": "https://github.com/jeffreyhunter77/expressive-test-util.git"
+  },
   "devDependencies": {
     "chai": "^4.1.2",
     "chai-as-promised": "^7.1.1",
     "mock-fs": "^4.4.2",
     "sinon": "^4.4.2",
     "sinon-chai": "^2.14.0",
-    "expressive-test": "../expressive-test"
+    "expressive-test": "git+ssh://git@github.com:jeffreyhunter77/expressive-test.git#semver:^0.0.2"
   },
   "dependencies": {}
 }
