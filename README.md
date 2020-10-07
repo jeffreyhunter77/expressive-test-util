@@ -17,7 +17,7 @@ This module exports the following top-level properties:
  * [exec](#api_exec)
  * [file](#api_file)
  * [promise](#api_promise)
- * string
+ * [string](#api_string)
 
 <a name="api_exec"></a>
 ### exec
